@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Coin
+  - Death tile
+  - GM
+  - Respawn Point
+  - Checkpoint
+  - Enemy
+  - EnemyUnits
+  - EnemyUnit
+  - TargetEnemyUnit
+  - Canvas
+  - NPC
+  - BattleManager
+  - Selector
+  - DeadHero
+  - DeadEnemy
+  - EncounterZone
+  - Enter
+  - Leave
+  - teleporter
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: HIdden
+    uniqueID: 1792713779
+    locked: 0
+  - name: Background
+    uniqueID: 3165296251
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 3774260269
+    locked: 0
+  - name: Decoration
+    uniqueID: 1724319675
+    locked: 0
+  - name: PatchUps
+    uniqueID: 359414509
+    locked: 0
+  - name: Player
+    uniqueID: 3584180091
+    locked: 0
+  - name: ContextSignal
+    uniqueID: 3134624667
+    locked: 0

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2682480202565900201
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2682480202565900203}
+  - component: {fileID: 2682480202565900200}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2682480202565900203
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2682480202565900201}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.96, y: -5.9, z: 3.9075723}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2682480202565900200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2682480202565900201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3451b4d2fd06aa647935eb504fc77b6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentRegions: 0
+  Regions:
+  - regionName: Region1
+    maxAmountOfEnemy: 1
+    possibleEnemy:
+    - {fileID: 8787056965075169638, guid: c40e8dbb615f55a4fb82f7db46ba2e56, type: 3}
+    BattleScene: Battle
+  heroCharacter: {fileID: 728726410330776658, guid: 90d09646298b5b949ae340aeab0e17a3,
+    type: 3}
+  nextHeroPosition: {x: -0.5, y: -6, z: 0}
+  lastHeroPosition: {x: -9.5, y: -31, z: 0}
+  sceneToLoad: 
+  lastScene: 
+  isWalking: 0
+  canGetEncounter: 0
+  gotAttacked: 0
+  enemyToBattle: []
+  gameState: 0
