@@ -1,2 +1,2 @@
 # 2D-RPG-GAME-DEMO 
-RPG genre game demo based on final fantasy
+Demo based on final fantasy 7 
